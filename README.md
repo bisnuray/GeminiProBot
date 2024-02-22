@@ -4,7 +4,17 @@
   <em>Gemini is an advanced Artificial Intelligence (AI) system designed to intelligently respond to diverse prompts, including pictures, text, speech, music, and code. This Python Telegram Bot script leverages the aiogram library to interact with Google's AI.</em>
 </p>
 <hr>
-<h2 align="center">Getting Started 🚀</h2>
+
+## 🌟 Features
+
+- 🔄 **Asynchronous Communication**: Leverages the power of async for seamless interactions.
+- ⚙️ **Error Handling**: Robust error handling for a smoother user experience.
+- 🍪 **Text Prompt Response**: Accepts text prompts and generates text.
+- 🖼️ **Image Recognition**: Can read and interpret images.
+
+For more detailed information on the capabilities and availability of Google Gemini AI, please visit [Google's official blog](https://blog.google/technology/ai/google-gemini-ai/#availability).
+
+## Getting Started 🚀
 
 To utilize Gemini Pro, configure your environment with the necessary API key and service account credentials. Follow these steps to get started:
 
