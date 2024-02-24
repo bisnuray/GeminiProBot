@@ -79,7 +79,7 @@ To set environment variables permanently on a VPS :
 
 3. **Save and Exit**
 
-   Press `Ctrl + X`, then `Y` to confirm, and `Enter` to exit.
+   Press `Ctrl + O`, then `Enter` and .Press `Ctrl + X`, to exit 
 
 4. **Apply the Changes**
 
@@ -88,7 +88,14 @@ To set environment variables permanently on a VPS :
     ```bash
     source ~/.bashrc
     ```
+## Deploy to VPS
 
+```sh
+git clone https://github.com/bisnuray/GeminiProBot
+cd GeminiProBot
+nano gemini.py [ replace with your actual bot token ]
+python3 gemini.py
+```
 ### Setting Up the Bot
 
 1. Create a new bot with [@BotFather](https://t.me/botfather) on Telegram and get the bot token.
