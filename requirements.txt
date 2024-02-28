@@ -3,3 +3,4 @@ Pillow
 google-generativeai
 python-telegram-bot
 aiohttp
+Python 3.11
