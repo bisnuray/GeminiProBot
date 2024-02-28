@@ -26,7 +26,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro-vision')
 
 
-@dp.message_handler(commands=['gemi'])
+@dp.message_handler(commands=['jar'])
 async def gemi_handler(message: types.Message):
     loading_message = None  # Initialize loading_message outside the try block
     try:
