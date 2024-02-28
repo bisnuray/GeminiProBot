@@ -2,3 +2,7 @@ aiogram==2.25.1
 Pillow 
 google-generativeai
 python-telegram-bot
+aiohttp
+libffi-dev
+libssl-dev
+python3-dev
