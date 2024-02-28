@@ -120,5 +120,6 @@ Ensure to reply to an image with /imgai command for it to work.
 
 - Name: ROHITH RD👑
 - Telegram: [@ROHITHRD3(https://t.me/ROHITHRD3)
+- Jarvis_Ai_bot by ROHITHRD3 - https://t.me/PandaAi_jarvisbot
 
 Feel free to reach out if you have any questions or feedback.
