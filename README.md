@@ -117,7 +117,7 @@ Ensure to reply to an image with /imgai command for it to work.
 
 ## Author 📝
 
-- Name: Bisnu Ray
-- Telegram: [@SmartBisnuBio](https://t.me/SmartBisnuBio)
+- Name: ROHITH RD👑
+- Telegram: [@ROHITHRD3(https://t.me/ROHITHRD3)
 
 Feel free to reach out if you have any questions or feedback.
