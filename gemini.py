@@ -1,6 +1,6 @@
 """
-Author: Bisnu Ray
-Telegram: https://t.me/SmartBisnuBio
+Author: ROHITH RD
+Telegram: https://t.me/ROHITHRD3
 """
 
 import os
