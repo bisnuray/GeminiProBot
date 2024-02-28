@@ -1,7 +1,8 @@
-<h1 align="center">Gemini Pro Telegram Bot 🌌</h1>
+<h1 align="center">JARVIS AI Telegram Bot :india: </h1>
 
 <p align="center">
-  <em>Gemini is an advanced Artificial Intelligence (AI) system designed to intelligently respond to diverse prompts, including pictures, text, speech, music, and code. This Python Telegram Bot script leverages the aiogram library to interact with Google's AI.</em>
+  <em> {Jarvis Ai bot is created through Gemini Ai source code}
+    Gemini is an advanced Artificial Intelligence (AI) system designed to intelligently respond to diverse prompts, including pictures, text, speech, music, and code. This Python Telegram Bot script leverages the aiogram library to interact with Google's AI.</em>
 </p>
 <hr>
 
@@ -111,13 +112,14 @@ python gemini.py
 ## Usage 🛠️
 The bot supports the following commands:
 
-- /gem: Generates a response based on a text prompt.
+- /jar: Generates a response based on a text prompt.
 - /imgai: Generates a response based on an image.
 Ensure to reply to an image with /imgai command for it to work.
 
 ## Author 📝
 
-- Name: Bisnu Ray
-- Telegram: [@SmartBisnuBio](https://t.me/SmartBisnuBio)
+- Name: ROHITH RD👑
+- Telegram: [@ROHITHRD3(https://t.me/ROHITHRD3)
+- Jarvis_Ai_bot by ROHITHRD3 - https://t.me/PandaAi_jarvisbot
 
 Feel free to reach out if you have any questions or feedback.

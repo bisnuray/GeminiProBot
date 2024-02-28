@@ -1,6 +1,6 @@
 """
-Author: Bisnu Ray
-Telegram: https://t.me/SmartBisnuBio
+Author: ROHITH RD👑
+Telegram: https://t.me/ROHITHRD3
 """
 
 import os
@@ -8,17 +8,21 @@ import io
 import logging
 import PIL.Image
 import google.generativeai as genai
+#from aiogram.dispatcher import Dispatcher, types
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.types import ParseMode, ChatActions
 from aiogram.utils import executor
 
+# Set the environment variable for the service account key file
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "my-jarvisai-bot-d0d568b0bcc2.json"
+
 # Create the bot object.
-bot = Bot(token='12345678:AAGNaKh6J5jrK4og9FWkiGR1jifbZjTniik')
+bot = Bot(token='7048732299:AAFibWRxpcMW5WorCPKsgE4XKYuRsZio5Us')
 dp = Dispatcher(bot)
 
 # Use os.getenv for the Google API key
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+GOOGLE_API_KEY = os.getenv('AIzaSyB76taBsYyPsP-94PTuV-gaOrQtzNCJk7c')
 
 # Configure the API key for Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -26,7 +30,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro-vision')
 
 
-@dp.message_handler(commands=['gemi'])
+@dp.message_handler(commands=['jar'])
 async def gemi_handler(message: types.Message):
     loading_message = None  # Initialize loading_message outside the try block
     try:
