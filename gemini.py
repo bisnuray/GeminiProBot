@@ -8,6 +8,7 @@ import io
 import logging
 import PIL.Image
 import google.generativeai as genai
+#from aiogram.dispatcher import Dispatcher, types
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.types import ParseMode, ChatActions
@@ -21,7 +22,7 @@ dp = Dispatcher(bot)
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 # Configure the API key for Gemini
-genai.configure(api_key=AIzaSyB76taBsYyPsP-94PTuV-gaOrQtzNCJk7c)
+genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro-vision')
 
