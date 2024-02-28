@@ -1,7 +1,8 @@
 <h1 align="center">JARVIS AI Telegram Bot 🌌</h1>
 
 <p align="center">
-  <em>Gemini is an advanced Artificial Intelligence (AI) system designed to intelligently respond to diverse prompts, including pictures, text, speech, music, and code. This Python Telegram Bot script leverages the aiogram library to interact with Google's AI.</em>
+  <em> {Jarvis Ai bot is created through Gemini Ai source code}
+    Gemini is an advanced Artificial Intelligence (AI) system designed to intelligently respond to diverse prompts, including pictures, text, speech, music, and code. This Python Telegram Bot script leverages the aiogram library to interact with Google's AI.</em>
 </p>
 <hr>
 
