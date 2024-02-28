@@ -111,7 +111,7 @@ python gemini.py
 ## Usage 🛠️
 The bot supports the following commands:
 
-- /gem: Generates a response based on a text prompt.
+- /jar: Generates a response based on a text prompt.
 - /imgai: Generates a response based on an image.
 Ensure to reply to an image with /imgai command for it to work.
 
