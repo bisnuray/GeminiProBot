@@ -1,5 +1,5 @@
-aiogram==2.25.1 
+aiogram
 Pillow 
 google-generativeai
 python-telegram-bot
-aiohttp==3.9.0
+aiohttp
