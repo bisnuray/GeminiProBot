@@ -3,3 +3,4 @@ Pillow
 google-generativeai
 python-telegram-bot
 aiohttp
+setuptools
