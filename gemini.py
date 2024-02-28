@@ -21,7 +21,7 @@ dp = Dispatcher(bot)
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 # Configure the API key for Gemini
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key=AIzaSyB76taBsYyPsP-94PTuV-gaOrQtzNCJk7c)
 
 model = genai.GenerativeModel('gemini-pro-vision')
 
