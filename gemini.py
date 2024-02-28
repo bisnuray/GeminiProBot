@@ -14,14 +14,15 @@ from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.types import ParseMode, ChatActions
 from aiogram.utils import executor
 
+# Set the environment variable for the service account key file
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "my-jarvisai-bot-d0d568b0bcc2.json"
+
 # Create the bot object.
 bot = Bot(token='7048732299:AAFibWRxpcMW5WorCPKsgE4XKYuRsZio5Us')
 dp = Dispatcher(bot)
-genai.configure(api_key=os.getenv('AIzaSyB76taBsYyPsP-94PTuV-gaOrQtzNCJk7c')
-model = genai.GenerativeModel('gemini-pro-vision')
 
 # Use os.getenv for the Google API key
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+GOOGLE_API_KEY = os.getenv('AIzaSyB76taBsYyPsP-94PTuV-gaOrQtzNCJk7c')
 
 # Configure the API key for Gemini
 genai.configure(api_key=GOOGLE_API_KEY)
