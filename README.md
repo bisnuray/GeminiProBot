@@ -1,4 +1,5 @@
-<h1 align="center">JARVIS AI Telegram Bot 🌌</h1>
+<h1 align="center">JARVIS AI Telegram Bot ![jarvis dp for tg](https://github.com/RANDOMZIPPED/Jarvisai_tg-bot/assets/131787412/0fe06bd0-464d-4ca4-86d5-27f1681bdbb6)
+</h1>
 
 <p align="center">
   <em> {Jarvis Ai bot is created through Gemini Ai source code}
