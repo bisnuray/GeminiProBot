@@ -7,113 +7,50 @@
 
 ## 🌟 Features
 
-- 🔄 **Asynchronous Communication**: Leverages the power of async for seamless interactions.
-- ⚙️ **Error Handling**: Robust error handling for a smoother user experience.
 - 🍪 **Text Prompt Response**: Accepts text prompts and generates text.
 - 🖼️ **Image Recognition**: Can read and interpret images.
 
-For more detailed information on the capabilities and availability of Google Gemini AI, please visit [Google's official blog](https://blog.google/technology/ai/google-gemini-ai/#availability).
+## Requirements
 
-## Getting Started 🚀
+Before you begin, ensure you have met the following requirements:
 
-To utilize Gemini Pro, configure your environment with the necessary API key and service account credentials. Follow these steps to get started:
+- Python 3.9 or higher.
+- `pyrofork`, `google-generativeai` and `pillow` libraries.
+- A Telegram bot token (you can get one from [@BotFather](https://t.me/BotFather) on Telegram).
+- API ID and Hash: You can get these by creating an application on [my.telegram.org](https://my.telegram.org).
+- To Get `GOOGLE_API_KEY` Open [GOOGLE_API_KEY](https://makersuite.google.com/app/apikey).
 
-### Prerequisites
+## Installation
 
-- Python 3.9 or higher 🐍
-- Libraries: `aiogram==2.25.1`, `PIL`, `io`, `logging`, `google-generativeai` 📚
-- Environment Variables: `GOOGLE_API_KEY`, `GOOGLE_APPLICATION_CREDENTIALS` 🗝️
+To install `pyrofork`, `google-generativeai` and `pillow`, run the following command:
 
-1. Install the required dependencies, ensuring Python 3.9 or higher:
+```bash
+pip install pyrofork google-generativeai pillow
+```
 
-    ```bash
-    pip install aiogram==2.25.1 Pillow google-generativeai
-    ```
+**Note: If you previously installed `pyrogram`, uninstall it before installing `pyrofork`.**
 
-   Note: The `PIL` package is part of the `Pillow` library, which is a more up-to-date fork of PIL.
+## Configuration
 
-2. Create a Google Cloud Platform (GCP) service account and download the JSON key file. Follow these steps:
+1. Open the `config.py` file in your favorite text editor.
+2. Replace the placeholders for `API_ID`, `API_HASH`, `GOOGLE_API_KEY`, and `BOT_TOKEN` with your actual values:
+   - **`API_ID`**: Your API ID from [my.telegram.org](https://my.telegram.org).
+   - **`API_HASH`**: Your API Hash from [my.telegram.org](https://my.telegram.org).
+   - **`GOOGLE_API_KEY`**: To get google api key [Click Here](https://makersuite.google.com/app/apikey).
+   - **`BOT_TOKEN`**: The token you obtained from [@BotFather](https://t.me/BotFather).
 
-   - Go to [Google Cloud Console](https://console.cloud.google.com/).
-   - Navigate to the project where you want to create a service account.
-   - In the left sidebar, click on the hamburger menu and select "IAM & Admin" > "Service accounts."
-   - Click on "Create Service Account" at the top of the page.
-   - Enter a name for the service account, choose a role (e.g., Project > Editor), and click "Continue."
-   - Skip the "Grant users access to this service account" section and click "Done."
-   - Locate the newly created service account in the list and click on the pencil icon to the right.
-   - Navigate to the "Add Key" tab, choose JSON as the key type, and click "Create." Save the downloaded JSON file to a secure location.
-
-3. Obtain a Google API key by following the link [here](https://makersuite.google.com/app/apikey).
-
-4. Set the Google API key and the path to your service account credentials as environment variables:
-
-    ```bash
-    export GOOGLE_API_KEY=<your-api-key>
-    export GOOGLE_APPLICATION_CREDENTIALS=/path/to/serviceaccount.json
-    ```
-
-   Replace `<your-api-key>` and `/path/to/serviceaccount.json` with your actual Google API key and the path to your service account JSON file, respectively.
-
-<h2 align="center">Setting Environment Variables Permanently on a VPS</h2>
-
-To set environment variables permanently on a VPS :
-
-1. **Open the Profile File**
-
-   For a single user, edit `~/.bashrc`:
-
-    ```bash
-    nano ~/.bashrc
-    ```
-
-2. **Add the Environment Variables**
-
-   At the bottom, add:
-
-    ```bash
-    export GOOGLE_API_KEY="your-api-key-here"
-    export GOOGLE_APPLICATION_CREDENTIALS="/path/to/serviceaccount.json"
-    ```
-
-   Replace `"your-api-key-here"` and `"/path/to/serviceaccount.json"` with your actual details.
-
-3. **Save and Exit**
-
-   Press `Ctrl + O`, then `Enter` and .Press `Ctrl + X`, to exit 
-
-4. **Apply the Changes**
-
-   Reload the profile:
-
-    ```bash
-    source ~/.bashrc
-    ```
-## Deploy to VPS
+## Deploy the Bot
 
 ```sh
 git clone https://github.com/bisnuray/GeminiProBot
 cd GeminiProBot
-nano gemini.py [ replace with your actual bot token ]
-python3 gemini.py
-```
-### Setting Up the Bot
-
-1. Create a new bot with [@BotFather](https://t.me/botfather) on Telegram and get the bot token.
-2. Replace the placeholder token in the script with your actual bot token.
-
-### Running the Bot
-
-Execute the script to start the bot:
-
-```bash
 python gemini.py
 ```
 ## Usage 🛠️
 The bot supports the following commands:
 
-- /gem: Generates a response based on a text prompt.
-- /imgai: Generates a response based on an image.
-Ensure to reply to an image with /imgai command for it to work.
+- `/gem <prompt>`: Generates a response based on a provided text prompt.
+- `/imgai <optional prompt>`: Generates a response based on an image. Ensure you reply to an image with the /imgai command. Optionally, you can provide a prompt along with the command, like `/imgai What is this?`, while replying to a photo to get a more specific response.
 
 ## Author 📝
 
