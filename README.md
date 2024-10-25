@@ -1,7 +1,7 @@
 <h1 align="center">Gemini Pro Telegram Bot 🌌</h1>
 
 <p align="center">
-  <em>Gemini is an advanced Artificial Intelligence (AI) system designed to intelligently respond to diverse prompts, including pictures, text, speech, music, and code. This Python Telegram Bot script leverages the aiogram library to interact with Google's AI.</em>
+  <em>Gemini Pro: An AI-powered Telegram bot script for generating text and image-based responses using Gemini AI</em>
 </p>
 <hr>
 
